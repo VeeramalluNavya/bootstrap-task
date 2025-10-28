@@ -1,0 +1,38 @@
+/* ===== Custom Styles ===== */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #89e0de;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero Section */
+section.bg-light {
+  background: linear-gradient(to right, #de946f, #cb5850);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #000101;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #070b12;
+  transform: scale(1.05);
+}
+
+/* Feature Boxes */
+.shadow-sm:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+/* Footer */
+footer {
+  background: #212529;
+}
